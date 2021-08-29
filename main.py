@@ -8,26 +8,32 @@ import os
 import random
 import datetime
 import utils
+import urllib
 
 def main(event, context):
     # 初始化日志文件
     utils.initLog('log.txt')
     utils.clearLog()
     
-    saveData('https://classccai.oss-cn-beijing.aliyuncs.com/speed.png', 'speed.png')
-    
-    saveData('https://classccai.oss-cn-beijing.aliyuncs.com/link_url.txt', 'link_url.txt')
-    
-    saveData('https://classccai.oss-cn-beijing.aliyuncs.com/v2ray.txt', 'v2ray.txt')
-    
-    saveData('https://classccai.oss-cn-beijing.aliyuncs.com/clash.yml', 'clash.yml')
-
-def saveData(url, name):
-    resp = requests.get(url)
     dirs = './subscribe'
     if not os.path.exists(dirs):
         os.makedirs(dirs)
-    with open(dirs + '/' + name, 'w', encoding='utf-8') as f:
+    
+    saveImage('https://classccai.oss-cn-beijing.aliyuncs.com/speed.png', dirs + 'speed.png')
+
+    saveData('https://classccai.oss-cn-beijing.aliyuncs.com/link_url.txt', dirs + 'link_url.txt')
+    
+    saveData('https://classccai.oss-cn-beijing.aliyuncs.com/v2ray.txt', dirs + 'v2ray.txt')
+    
+    saveData('https://classccai.oss-cn-beijing.aliyuncs.com/clash.yml', dirs + 'clash.yml')
+    
+    
+def saveImage(url, path):
+    urllib.urlretrieve(url, path)
+        
+def saveData(url, path):
+    resp = requests.get(url)
+    with open(path, 'w', encoding='utf-8') as f:
         f.write(resp.content)
         print(name+'生成成功')
 
