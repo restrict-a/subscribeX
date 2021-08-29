@@ -34,7 +34,7 @@ def saveImage(url, path):
 def saveData(url, path):
     resp = requests.get(url)
     with open(path, 'w', encoding='utf-8') as f:
-        f.write(resp.content)
+        f.write(resp.text)
         print(name+'生成成功')
 
 # 主函数入口
