@@ -35,7 +35,7 @@ def saveData(url, path):
     resp = requests.get(url)
     with open(path, 'w', encoding='utf-8') as f:
         f.write(resp.text)
-        print(name+'生成成功')
+        print(path + '生成成功')
 
 # 主函数入口
 if __name__ == '__main__':
