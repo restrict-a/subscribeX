@@ -16,11 +16,11 @@ https://raw.fastgit.org/classcwz/subscribeX/master/subscribe/speed.png
 
 v2ray测速精选URL
 
-https://raw.fastgit.org/classcwz/subscribeX/master/subscribe/link_url.yml
+https://raw.fastgit.org/classcwz/subscribeX/master/subscribe/link_url.txt
 
 v2ray测速精选链接
 
-https://raw.fastgit.org/classcwz/subscribeX/master/subscribe/v2ray.yml
+https://raw.fastgit.org/classcwz/subscribeX/master/subscribe/v2ray.txt
 
 clash测速精选链接
 
