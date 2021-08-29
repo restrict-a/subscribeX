@@ -1,37 +1,29 @@
-# VmessActions
-通过GitHub的actions 自动采集节点 
-自动生成订阅信息
+github最优白嫖科学上网解决方案
 
-订阅内容自动更新在仓库 subscribe 目录下
-然后PC端/手机端根据自己的软件支持的格式，订阅对应的链接即可
+每4小时网络收集并通过github actions测速一次，筛选出当前优质节点。
 
-比如clash.yml的订阅链接为https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/clash.yml  
-如果自己的仓，直接查看对应文件的raw链接 即可
+每30分钟在已筛选的优质节点之上再次测速一次，保证节点最优。
 
+测速图片在线查看，做到心中有数，避免无意义的订阅。
 
-clash订阅地址 
+支持v2ray、clash双订阅，且地址永久唯一，配合相应软件自动更新机制，等于长期有效。
 
-```
- https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/clash.yml
-```
-ssr订阅地址 
-```
-https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/ssr.txt
-```
-> **以此类推，根据后缀名自行拼接链接**
+所有订阅链接CDN加速，避免无法访问。
 
+v2ray测速结果图片
 
+- `https://classccai.oss-cn-beijing.aliyuncs.com/speed.png`
 
-## 使用软件
+v2ray测速精选URL
 
-| 平台                    | 软件                                                         | 支持协议                                                     |
-| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Windows                 | [Clash CFW  **(推荐)**](https://github.com/Fndroid/clash_for_windows_pkg/releases) | SS、SSR、Trojan、Vmess、VLESS                                |
-| Windows                 | [Clash.Net](https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/) | SS、SSR、Trojan、Vmess、VLESS                                |
-| Windows                 | [WinXray](https://github.com/TheMRLL/winxray/releases)       | SS、SSR、Trojan、V2ray（Vmess、VLESS）Xray                   |
-| macOS                   | [ClashX](https://github.com/yichengchen/clashX/releases)     | SS、SSR、Trojan、V2ray                                       |
-| Android                 | [ClashForAndroid  **(推荐)**](https://github.com/Kr328/ClashForAndroid/releases) | SS、SSR、Trojan、Vmess、VLESS                                |
+- `https://classccai.oss-cn-beijing.aliyuncs.com/link_url.txt`
 
+v2ray测速精选链接
 
-订阅节点仅作学习交流用，用于查找资料，学习知识，不要做任何违法行为。
-所有资源均来自互联网，非盈利目的，仅供大家交流学习使用，出现违法问题概不负责。
+- `https://classccai.oss-cn-beijing.aliyuncs.com/v2ray.txt`
+
+clash测速精选链接
+
+- `https://classccai.oss-cn-beijing.aliyuncs.com/clash.yml`
+
+说明：以上订阅链接全部来自互联网各大佬分享与整理，在此感谢无私分享，此处就是为了测速分享以及科学上网研究。所谓白嫖很贵，且用且珍惜，再次声明以上信息仅供学习技术之用，不要用于非法用途。
