@@ -12,18 +12,18 @@ github最优白嫖科学上网解决方案
 
 v2ray测速结果图片
 
-- `https://classccai.oss-cn-beijing.aliyuncs.com/speed.png`
+https://raw.fastgit.org/classcwz/subscribeX/master/subscribe/speed.png
 
 v2ray测速精选URL
 
-- `https://classccai.oss-cn-beijing.aliyuncs.com/link_url.txt`
+https://raw.fastgit.org/classcwz/subscribeX/master/subscribe/link_url.yml
 
 v2ray测速精选链接
 
-- `https://classccai.oss-cn-beijing.aliyuncs.com/v2ray.txt`
+https://raw.fastgit.org/classcwz/subscribeX/master/subscribe/v2ray.yml
 
 clash测速精选链接
 
-- `https://classccai.oss-cn-beijing.aliyuncs.com/clash.yml`
+https://raw.fastgit.org/classcwz/subscribeX/master/subscribe/clash.yml
 
 说明：以上订阅链接全部来自互联网各大佬分享与整理，在此感谢无私分享，此处就是为了测速分享以及科学上网研究。所谓白嫖很贵，且用且珍惜，再次声明以上信息仅供学习技术之用，不要用于非法用途。
