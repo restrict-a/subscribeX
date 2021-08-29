@@ -30,6 +30,7 @@ def main(event, context):
     
 def saveImage(url, path):
     urllib.request.urlretrieve(url, path)
+    print(path + '生成成功')
         
 def saveData(url, path):
     resp = requests.get(url)
