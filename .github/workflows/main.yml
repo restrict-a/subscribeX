@@ -1,11 +1,11 @@
-name: 自动采集
+name: 定时拉取
 
 on:
    push:
      branches:
      - master   
    schedule:
-   - cron: "*/10 * * * *"
+   - cron: "*/30 * * * *"
 
 jobs:
   deploy:
@@ -30,13 +30,12 @@ jobs:
       run: |
         pip install -r requirements.txt
     - name: 执行任务
-      # env:
-      #   CONFIG: ${{ secrets.CONFIG }}
       run: |
         python main.py
           
     - name: 提交更改
-      run: |                 
+      run: |
+         git pull
          git config --local user.email "classccai@gmail.com"
          git config --local user.name "classcwz"
          git add .
