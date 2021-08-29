@@ -8,7 +8,7 @@ import os
 import random
 import datetime
 import utils
-import urllib
+import urllib.request
 
 def main(event, context):
     # 初始化日志文件
@@ -29,7 +29,7 @@ def main(event, context):
     
     
 def saveImage(url, path):
-    urllib.urlretrieve(url, path)
+    urllib.request.urlretrieve(url, path)
         
 def saveData(url, path):
     resp = requests.get(url)
