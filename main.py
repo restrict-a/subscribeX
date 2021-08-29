@@ -19,13 +19,13 @@ def main(event, context):
     if not os.path.exists(dirs):
         os.makedirs(dirs)
     
-    saveImage('https://classccai.oss-cn-beijing.aliyuncs.com/speed.png', dirs + 'speed.png')
+    saveImage('https://classccai.oss-cn-beijing.aliyuncs.com/speed.png', dirs + '/' + 'speed.png')
 
-    saveData('https://classccai.oss-cn-beijing.aliyuncs.com/link_url.txt', dirs + 'link_url.txt')
+    saveData('https://classccai.oss-cn-beijing.aliyuncs.com/link_url.txt', dirs + '/' + 'link_url.txt')
     
-    saveData('https://classccai.oss-cn-beijing.aliyuncs.com/v2ray.txt', dirs + 'v2ray.txt')
+    saveData('https://classccai.oss-cn-beijing.aliyuncs.com/v2ray.txt', dirs + '/' + 'v2ray.txt')
     
-    saveData('https://classccai.oss-cn-beijing.aliyuncs.com/clash.yml', dirs + 'clash.yml')
+    saveData('https://classccai.oss-cn-beijing.aliyuncs.com/clash.yml', dirs + '/' + 'clash.yml')
     
     
 def saveImage(url, path):
