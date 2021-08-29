@@ -35,7 +35,7 @@ jobs:
           
     - name: 提交更改
       run: |
-         git pull
+         git pull ...
          git config --local user.email "classccai@gmail.com"
          git config --local user.name "classcwz"
          git add .
