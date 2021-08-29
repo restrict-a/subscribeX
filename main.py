@@ -28,7 +28,7 @@ def saveData(url, name):
     if not os.path.exists(dirs):
         os.makedirs(dirs)
     with open(dirs + '/' + name, 'w', encoding='utf-8') as f:
-        f.write(resp.text)
+        f.write(resp.content)
         print(name+'生成成功')
 
 # 主函数入口
