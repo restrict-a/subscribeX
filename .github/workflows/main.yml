@@ -27,8 +27,7 @@ jobs:
          curl ${{ secrets.CLASH }} > clash.yml
       
          sed -i "1c 节点更新时间：`date +'%Y-%m-%d %H:%M:%S'`" README.md
-         
-         git pull
+   
          git config --local user.email "classccai@gmail.com"
          git config --local user.name "classcwz"
          git add .
