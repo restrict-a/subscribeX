@@ -1,4 +1,4 @@
-节点更新时间：2021-08-31 06:23:00
+节点更新时间：2021-08-31 06:22:24
                                                                                    
 -----------------------------------github最强白嫖科学上网解决方案-----------------------------------
 
@@ -22,18 +22,18 @@
 
 v2ray测速结果图片
 
-https://raw.fastgit.org/classcwz/subscribeX/master/subscribe/speed.png
+https://raw.fastgit.org/classcwz/subscribeX/master/speed.png
 
 v2ray测速精选URL
 
-https://raw.fastgit.org/classcwz/subscribeX/master/subscribe/link_url.txt
+https://raw.fastgit.org/classcwz/subscribeX/master/link_url.txt
 
 v2ray测速精选链接
 
-https://raw.fastgit.org/classcwz/subscribeX/master/subscribe/v2ray.txt
+https://raw.fastgit.org/classcwz/subscribeX/master/v2ray.txt
 
 clash测速精选链接
 
-https://raw.fastgit.org/classcwz/subscribeX/master/subscribe/clash.yml
+https://raw.fastgit.org/classcwz/subscribeX/master/clash.yml
 
 说明：以上节点全部来自互联网各大佬分享与整理，在此感谢无私分享，本人出于兴趣就是为了测速分享以及科学上网研究。所谓白嫖很贵，时间成本也是成本，对小白而言节点安全也是一个问题，所以且用且珍惜，再次声明以上信息仅供学习技术之用，不要用于非法用途，一切不良后果均与本人无关。
