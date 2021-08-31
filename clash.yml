@@ -5,245 +5,301 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 🇷🇴 github.com/freefq - 罗马尼亚  7, server: 89.46.223.189, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇩🇪 github.com/freefq - 德国  18, server: 185.102.219.6, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: _861 |76.82Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
+  - {name: _848 |69.56Mb, server: usa4a-node.3366test.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usa4a-node.3366test.com}}
+  - {name: 🇯🇵 JP_6002 |32.14Mb, server: usa3-node.3366test.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usa3-node.3366test.com}}
   - {name: 🇷🇴 github.com/freefq - 罗马尼亚  10, server: 86.106.136.85, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇷🇴 github.com/freefq - 罗马尼亚  14, server: 89.46.223.214, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇬🇧 github.com/freefq - 英国  6, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇳🇱 github.com/freefq - 荷兰  25, server: 46.182.107.165, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
-  - {name: 🇭🇰 github.com/freefq - 香港CDN77节点 16, server: 84.17.53.86, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇷🇴 github.com/freefq - 罗马尼亚  19, server: 185.128.27.35, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇷🇴 github.com/freefq - 罗马尼亚  17, server: 37.120.212.131, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇷🇴 github.com/freefq - 罗马尼亚  5, server: 37.120.196.53, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
   - {name: 🇷🇴 github.com/freefq - 罗马尼亚  8, server: 89.46.223.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇩🇪 github.com/freefq - 德国  18, server: 185.102.219.6, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇬🇧 github.com/freefq - 英国  11, server: 217.138.211.221, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 🇳🇱 github.com/freefq - 荷兰  24, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
-  - {name: github.com/freefq - 阿尔巴尼亚  23, server: 31.171.154.99, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: github.com/freefq - 阿尔巴尼亚  26, server: 31.171.153.83, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇳🇱 NL_6805 |65.13Mb, server: 163.172.214.118, port: 18770, type: vmess, uuid: 5d3e6e14-5828-4e88-a946-bad5c700b4d5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇴 github.com/freefq - 罗马尼亚  19, server: 185.128.27.35, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇷🇴 github.com/freefq - 罗马尼亚  7, server: 89.46.223.189, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇬🇧 github.com/freefq - 英国  6, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇷🇴 github.com/freefq - 罗马尼亚  14, server: 89.46.223.214, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇷🇴 github.com/freefq - 罗马尼亚  5, server: 37.120.196.53, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: github.com/freefq - 欧洲  2, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇭🇰 github.com/freefq - 香港CDN77节点 16, server: 84.17.53.86, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇸🇬 github.com/freefq - 新加坡CDN77节点 30, server: 89.187.163.210, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 github.com/freefq - 美国  32, server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: github.com/freefq - 欧洲  28, server: 138.199.16.130, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
   - {name: github.com/freefq - 欧洲  21, server: 138.199.16.130, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇩🇪 github.com/freefq - 德国  3, server: 185.93.180.101, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: github.com/freefq - 欧洲  2, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇷🇴 github.com/freefq - 罗马尼亚  17, server: 37.120.212.131, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: github.com/freefq - 阿尔巴尼亚  23, server: 31.171.154.99, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: github.com/freefq - 阿尔巴尼亚  26, server: 31.171.153.83, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
   - {name: github.com/freefq - 欧洲  29, server: 138.199.16.137, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 github.com/freefq - 美国  4, server: 185.242.5.149, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 github.com/freefq - 美国  32, server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇸🇬 github.com/freefq - 新加坡CDN77节点 30, server: 89.187.163.210, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇷🇺 github.com/freefq - 俄罗斯  27, server: 5.189.202.16, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 36, server: t3.ssrsub.one, port: 8443, type: trojan, password: 310d9ce0-1903-4b5a-99eb-bee8dc30e8ec, sni: t3.ssrsub.one}
+  - {name: _845 |33.04Mb, server: 212.80.205.133, port: 31262, type: vmess, uuid: 00415a68-d5eb-4573-b73e-2b21f6b45c5d, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  35, server: 5.189.202.16, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: _847 |73.20Mb, server: 107.167.9.125, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: _860 |68.59Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: 🇺🇸 US_9399 |67.59Mb, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: _843 |33.55Mb, server: v6.ssrsub.one, port: 153, type: vmess, uuid: 18395e1a-0bf7-42da-a264-4de396141e83, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.one}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
-      - 🇷🇴 github.com/freefq - 罗马尼亚  7
-      - 🇩🇪 github.com/freefq - 德国  18
+      - _861 |76.82Mb
+      - _848 |69.56Mb
+      - 🇯🇵 JP_6002 |32.14Mb
       - 🇷🇴 github.com/freefq - 罗马尼亚  10
-      - 🇷🇴 github.com/freefq - 罗马尼亚  14
-      - 🇬🇧 github.com/freefq - 英国  6
       - 🇳🇱 github.com/freefq - 荷兰  25
-      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
-      - 🇷🇴 github.com/freefq - 罗马尼亚  19
-      - 🇷🇴 github.com/freefq - 罗马尼亚  17
-      - 🇷🇴 github.com/freefq - 罗马尼亚  5
       - 🇷🇴 github.com/freefq - 罗马尼亚  8
+      - 🇩🇪 github.com/freefq - 德国  18
+      - 🇬🇧 github.com/freefq - 英国  11
       - 🇳🇱 github.com/freefq - 荷兰  24
-      - github.com/freefq - 阿尔巴尼亚  23
-      - github.com/freefq - 阿尔巴尼亚  26
+      - 🇳🇱 NL_6805 |65.13Mb
+      - 🇷🇴 github.com/freefq - 罗马尼亚  19
+      - 🇷🇴 github.com/freefq - 罗马尼亚  7
+      - 🇬🇧 github.com/freefq - 英国  6
+      - 🇷🇴 github.com/freefq - 罗马尼亚  14
+      - 🇷🇴 github.com/freefq - 罗马尼亚  5
+      - github.com/freefq - 欧洲  2
+      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
+      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
+      - 🇺🇸 github.com/freefq - 美国  32
       - github.com/freefq - 欧洲  28
       - github.com/freefq - 欧洲  21
-      - 🇩🇪 github.com/freefq - 德国  3
-      - github.com/freefq - 欧洲  2
+      - 🇷🇴 github.com/freefq - 罗马尼亚  17
+      - github.com/freefq - 阿尔巴尼亚  23
+      - github.com/freefq - 阿尔巴尼亚  26
       - github.com/freefq - 欧洲  29
-      - 🇺🇸 github.com/freefq - 美国  4
-      - 🇺🇸 github.com/freefq - 美国  32
-      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
-      - 🇷🇺 github.com/freefq - 俄罗斯  27
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 36
+      - _845 |33.04Mb
+      - 🇷🇺 github.com/freefq - 俄罗斯  35
+      - _847 |73.20Mb
+      - _860 |68.59Mb
+      - 🇺🇸 US_9399 |67.59Mb
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
+      - _843 |33.55Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
-      - 🇷🇴 github.com/freefq - 罗马尼亚  7
-      - 🇩🇪 github.com/freefq - 德国  18
+      - _861 |76.82Mb
+      - _848 |69.56Mb
+      - 🇯🇵 JP_6002 |32.14Mb
       - 🇷🇴 github.com/freefq - 罗马尼亚  10
-      - 🇷🇴 github.com/freefq - 罗马尼亚  14
-      - 🇬🇧 github.com/freefq - 英国  6
       - 🇳🇱 github.com/freefq - 荷兰  25
-      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
-      - 🇷🇴 github.com/freefq - 罗马尼亚  19
-      - 🇷🇴 github.com/freefq - 罗马尼亚  17
-      - 🇷🇴 github.com/freefq - 罗马尼亚  5
       - 🇷🇴 github.com/freefq - 罗马尼亚  8
+      - 🇩🇪 github.com/freefq - 德国  18
+      - 🇬🇧 github.com/freefq - 英国  11
       - 🇳🇱 github.com/freefq - 荷兰  24
-      - github.com/freefq - 阿尔巴尼亚  23
-      - github.com/freefq - 阿尔巴尼亚  26
+      - 🇳🇱 NL_6805 |65.13Mb
+      - 🇷🇴 github.com/freefq - 罗马尼亚  19
+      - 🇷🇴 github.com/freefq - 罗马尼亚  7
+      - 🇬🇧 github.com/freefq - 英国  6
+      - 🇷🇴 github.com/freefq - 罗马尼亚  14
+      - 🇷🇴 github.com/freefq - 罗马尼亚  5
+      - github.com/freefq - 欧洲  2
+      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
+      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
+      - 🇺🇸 github.com/freefq - 美国  32
       - github.com/freefq - 欧洲  28
       - github.com/freefq - 欧洲  21
-      - 🇩🇪 github.com/freefq - 德国  3
-      - github.com/freefq - 欧洲  2
+      - 🇷🇴 github.com/freefq - 罗马尼亚  17
+      - github.com/freefq - 阿尔巴尼亚  23
+      - github.com/freefq - 阿尔巴尼亚  26
       - github.com/freefq - 欧洲  29
-      - 🇺🇸 github.com/freefq - 美国  4
-      - 🇺🇸 github.com/freefq - 美国  32
-      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
-      - 🇷🇺 github.com/freefq - 俄罗斯  27
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 36
+      - _845 |33.04Mb
+      - 🇷🇺 github.com/freefq - 俄罗斯  35
+      - _847 |73.20Mb
+      - _860 |68.59Mb
+      - 🇺🇸 US_9399 |67.59Mb
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
+      - _843 |33.55Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
-      - 🇷🇴 github.com/freefq - 罗马尼亚  7
-      - 🇩🇪 github.com/freefq - 德国  18
+      - _861 |76.82Mb
+      - _848 |69.56Mb
+      - 🇯🇵 JP_6002 |32.14Mb
       - 🇷🇴 github.com/freefq - 罗马尼亚  10
-      - 🇷🇴 github.com/freefq - 罗马尼亚  14
-      - 🇬🇧 github.com/freefq - 英国  6
       - 🇳🇱 github.com/freefq - 荷兰  25
-      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
-      - 🇷🇴 github.com/freefq - 罗马尼亚  19
-      - 🇷🇴 github.com/freefq - 罗马尼亚  17
-      - 🇷🇴 github.com/freefq - 罗马尼亚  5
       - 🇷🇴 github.com/freefq - 罗马尼亚  8
+      - 🇩🇪 github.com/freefq - 德国  18
+      - 🇬🇧 github.com/freefq - 英国  11
       - 🇳🇱 github.com/freefq - 荷兰  24
-      - github.com/freefq - 阿尔巴尼亚  23
-      - github.com/freefq - 阿尔巴尼亚  26
+      - 🇳🇱 NL_6805 |65.13Mb
+      - 🇷🇴 github.com/freefq - 罗马尼亚  19
+      - 🇷🇴 github.com/freefq - 罗马尼亚  7
+      - 🇬🇧 github.com/freefq - 英国  6
+      - 🇷🇴 github.com/freefq - 罗马尼亚  14
+      - 🇷🇴 github.com/freefq - 罗马尼亚  5
+      - github.com/freefq - 欧洲  2
+      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
+      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
+      - 🇺🇸 github.com/freefq - 美国  32
       - github.com/freefq - 欧洲  28
       - github.com/freefq - 欧洲  21
-      - 🇩🇪 github.com/freefq - 德国  3
-      - github.com/freefq - 欧洲  2
+      - 🇷🇴 github.com/freefq - 罗马尼亚  17
+      - github.com/freefq - 阿尔巴尼亚  23
+      - github.com/freefq - 阿尔巴尼亚  26
       - github.com/freefq - 欧洲  29
-      - 🇺🇸 github.com/freefq - 美国  4
-      - 🇺🇸 github.com/freefq - 美国  32
-      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
-      - 🇷🇺 github.com/freefq - 俄罗斯  27
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 36
+      - _845 |33.04Mb
+      - 🇷🇺 github.com/freefq - 俄罗斯  35
+      - _847 |73.20Mb
+      - _860 |68.59Mb
+      - 🇺🇸 US_9399 |67.59Mb
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
+      - _843 |33.55Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
-      - 🇷🇴 github.com/freefq - 罗马尼亚  7
-      - 🇩🇪 github.com/freefq - 德国  18
+      - _861 |76.82Mb
+      - _848 |69.56Mb
+      - 🇯🇵 JP_6002 |32.14Mb
       - 🇷🇴 github.com/freefq - 罗马尼亚  10
-      - 🇷🇴 github.com/freefq - 罗马尼亚  14
-      - 🇬🇧 github.com/freefq - 英国  6
       - 🇳🇱 github.com/freefq - 荷兰  25
-      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
-      - 🇷🇴 github.com/freefq - 罗马尼亚  19
-      - 🇷🇴 github.com/freefq - 罗马尼亚  17
-      - 🇷🇴 github.com/freefq - 罗马尼亚  5
       - 🇷🇴 github.com/freefq - 罗马尼亚  8
+      - 🇩🇪 github.com/freefq - 德国  18
+      - 🇬🇧 github.com/freefq - 英国  11
       - 🇳🇱 github.com/freefq - 荷兰  24
-      - github.com/freefq - 阿尔巴尼亚  23
-      - github.com/freefq - 阿尔巴尼亚  26
+      - 🇳🇱 NL_6805 |65.13Mb
+      - 🇷🇴 github.com/freefq - 罗马尼亚  19
+      - 🇷🇴 github.com/freefq - 罗马尼亚  7
+      - 🇬🇧 github.com/freefq - 英国  6
+      - 🇷🇴 github.com/freefq - 罗马尼亚  14
+      - 🇷🇴 github.com/freefq - 罗马尼亚  5
+      - github.com/freefq - 欧洲  2
+      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
+      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
+      - 🇺🇸 github.com/freefq - 美国  32
       - github.com/freefq - 欧洲  28
       - github.com/freefq - 欧洲  21
-      - 🇩🇪 github.com/freefq - 德国  3
-      - github.com/freefq - 欧洲  2
+      - 🇷🇴 github.com/freefq - 罗马尼亚  17
+      - github.com/freefq - 阿尔巴尼亚  23
+      - github.com/freefq - 阿尔巴尼亚  26
       - github.com/freefq - 欧洲  29
-      - 🇺🇸 github.com/freefq - 美国  4
-      - 🇺🇸 github.com/freefq - 美国  32
-      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
-      - 🇷🇺 github.com/freefq - 俄罗斯  27
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 36
+      - _845 |33.04Mb
+      - 🇷🇺 github.com/freefq - 俄罗斯  35
+      - _847 |73.20Mb
+      - _860 |68.59Mb
+      - 🇺🇸 US_9399 |67.59Mb
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
+      - _843 |33.55Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
-      - 🇷🇴 github.com/freefq - 罗马尼亚  7
-      - 🇩🇪 github.com/freefq - 德国  18
+      - _861 |76.82Mb
+      - _848 |69.56Mb
+      - 🇯🇵 JP_6002 |32.14Mb
       - 🇷🇴 github.com/freefq - 罗马尼亚  10
-      - 🇷🇴 github.com/freefq - 罗马尼亚  14
-      - 🇬🇧 github.com/freefq - 英国  6
       - 🇳🇱 github.com/freefq - 荷兰  25
-      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
-      - 🇷🇴 github.com/freefq - 罗马尼亚  19
-      - 🇷🇴 github.com/freefq - 罗马尼亚  17
-      - 🇷🇴 github.com/freefq - 罗马尼亚  5
       - 🇷🇴 github.com/freefq - 罗马尼亚  8
+      - 🇩🇪 github.com/freefq - 德国  18
+      - 🇬🇧 github.com/freefq - 英国  11
       - 🇳🇱 github.com/freefq - 荷兰  24
-      - github.com/freefq - 阿尔巴尼亚  23
-      - github.com/freefq - 阿尔巴尼亚  26
+      - 🇳🇱 NL_6805 |65.13Mb
+      - 🇷🇴 github.com/freefq - 罗马尼亚  19
+      - 🇷🇴 github.com/freefq - 罗马尼亚  7
+      - 🇬🇧 github.com/freefq - 英国  6
+      - 🇷🇴 github.com/freefq - 罗马尼亚  14
+      - 🇷🇴 github.com/freefq - 罗马尼亚  5
+      - github.com/freefq - 欧洲  2
+      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
+      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
+      - 🇺🇸 github.com/freefq - 美国  32
       - github.com/freefq - 欧洲  28
       - github.com/freefq - 欧洲  21
-      - 🇩🇪 github.com/freefq - 德国  3
-      - github.com/freefq - 欧洲  2
+      - 🇷🇴 github.com/freefq - 罗马尼亚  17
+      - github.com/freefq - 阿尔巴尼亚  23
+      - github.com/freefq - 阿尔巴尼亚  26
       - github.com/freefq - 欧洲  29
-      - 🇺🇸 github.com/freefq - 美国  4
-      - 🇺🇸 github.com/freefq - 美国  32
-      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
-      - 🇷🇺 github.com/freefq - 俄罗斯  27
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 36
+      - _845 |33.04Mb
+      - 🇷🇺 github.com/freefq - 俄罗斯  35
+      - _847 |73.20Mb
+      - _860 |68.59Mb
+      - 🇺🇸 US_9399 |67.59Mb
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
+      - _843 |33.55Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
-      - 🇷🇴 github.com/freefq - 罗马尼亚  7
-      - 🇩🇪 github.com/freefq - 德国  18
+      - _861 |76.82Mb
+      - _848 |69.56Mb
+      - 🇯🇵 JP_6002 |32.14Mb
       - 🇷🇴 github.com/freefq - 罗马尼亚  10
-      - 🇷🇴 github.com/freefq - 罗马尼亚  14
-      - 🇬🇧 github.com/freefq - 英国  6
       - 🇳🇱 github.com/freefq - 荷兰  25
-      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
-      - 🇷🇴 github.com/freefq - 罗马尼亚  19
-      - 🇷🇴 github.com/freefq - 罗马尼亚  17
-      - 🇷🇴 github.com/freefq - 罗马尼亚  5
       - 🇷🇴 github.com/freefq - 罗马尼亚  8
+      - 🇩🇪 github.com/freefq - 德国  18
+      - 🇬🇧 github.com/freefq - 英国  11
       - 🇳🇱 github.com/freefq - 荷兰  24
-      - github.com/freefq - 阿尔巴尼亚  23
-      - github.com/freefq - 阿尔巴尼亚  26
+      - 🇳🇱 NL_6805 |65.13Mb
+      - 🇷🇴 github.com/freefq - 罗马尼亚  19
+      - 🇷🇴 github.com/freefq - 罗马尼亚  7
+      - 🇬🇧 github.com/freefq - 英国  6
+      - 🇷🇴 github.com/freefq - 罗马尼亚  14
+      - 🇷🇴 github.com/freefq - 罗马尼亚  5
+      - github.com/freefq - 欧洲  2
+      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
+      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
+      - 🇺🇸 github.com/freefq - 美国  32
       - github.com/freefq - 欧洲  28
       - github.com/freefq - 欧洲  21
-      - 🇩🇪 github.com/freefq - 德国  3
-      - github.com/freefq - 欧洲  2
+      - 🇷🇴 github.com/freefq - 罗马尼亚  17
+      - github.com/freefq - 阿尔巴尼亚  23
+      - github.com/freefq - 阿尔巴尼亚  26
       - github.com/freefq - 欧洲  29
-      - 🇺🇸 github.com/freefq - 美国  4
-      - 🇺🇸 github.com/freefq - 美国  32
-      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
-      - 🇷🇺 github.com/freefq - 俄罗斯  27
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 36
+      - _845 |33.04Mb
+      - 🇷🇺 github.com/freefq - 俄罗斯  35
+      - _847 |73.20Mb
+      - _860 |68.59Mb
+      - 🇺🇸 US_9399 |67.59Mb
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
+      - _843 |33.55Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
-      - 🇷🇴 github.com/freefq - 罗马尼亚  7
-      - 🇩🇪 github.com/freefq - 德国  18
+      - _861 |76.82Mb
+      - _848 |69.56Mb
+      - 🇯🇵 JP_6002 |32.14Mb
       - 🇷🇴 github.com/freefq - 罗马尼亚  10
-      - 🇷🇴 github.com/freefq - 罗马尼亚  14
-      - 🇬🇧 github.com/freefq - 英国  6
       - 🇳🇱 github.com/freefq - 荷兰  25
-      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
-      - 🇷🇴 github.com/freefq - 罗马尼亚  19
-      - 🇷🇴 github.com/freefq - 罗马尼亚  17
-      - 🇷🇴 github.com/freefq - 罗马尼亚  5
       - 🇷🇴 github.com/freefq - 罗马尼亚  8
+      - 🇩🇪 github.com/freefq - 德国  18
+      - 🇬🇧 github.com/freefq - 英国  11
       - 🇳🇱 github.com/freefq - 荷兰  24
-      - github.com/freefq - 阿尔巴尼亚  23
-      - github.com/freefq - 阿尔巴尼亚  26
+      - 🇳🇱 NL_6805 |65.13Mb
+      - 🇷🇴 github.com/freefq - 罗马尼亚  19
+      - 🇷🇴 github.com/freefq - 罗马尼亚  7
+      - 🇬🇧 github.com/freefq - 英国  6
+      - 🇷🇴 github.com/freefq - 罗马尼亚  14
+      - 🇷🇴 github.com/freefq - 罗马尼亚  5
+      - github.com/freefq - 欧洲  2
+      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
+      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
+      - 🇺🇸 github.com/freefq - 美国  32
       - github.com/freefq - 欧洲  28
       - github.com/freefq - 欧洲  21
-      - 🇩🇪 github.com/freefq - 德国  3
-      - github.com/freefq - 欧洲  2
+      - 🇷🇴 github.com/freefq - 罗马尼亚  17
+      - github.com/freefq - 阿尔巴尼亚  23
+      - github.com/freefq - 阿尔巴尼亚  26
       - github.com/freefq - 欧洲  29
-      - 🇺🇸 github.com/freefq - 美国  4
-      - 🇺🇸 github.com/freefq - 美国  32
-      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
-      - 🇷🇺 github.com/freefq - 俄罗斯  27
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 36
+      - _845 |33.04Mb
+      - 🇷🇺 github.com/freefq - 俄罗斯  35
+      - _847 |73.20Mb
+      - _860 |68.59Mb
+      - 🇺🇸 US_9399 |67.59Mb
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
+      - _843 |33.55Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -266,31 +322,38 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
-      - 🇷🇴 github.com/freefq - 罗马尼亚  7
-      - 🇩🇪 github.com/freefq - 德国  18
+      - _861 |76.82Mb
+      - _848 |69.56Mb
+      - 🇯🇵 JP_6002 |32.14Mb
       - 🇷🇴 github.com/freefq - 罗马尼亚  10
-      - 🇷🇴 github.com/freefq - 罗马尼亚  14
-      - 🇬🇧 github.com/freefq - 英国  6
       - 🇳🇱 github.com/freefq - 荷兰  25
-      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
-      - 🇷🇴 github.com/freefq - 罗马尼亚  19
-      - 🇷🇴 github.com/freefq - 罗马尼亚  17
-      - 🇷🇴 github.com/freefq - 罗马尼亚  5
       - 🇷🇴 github.com/freefq - 罗马尼亚  8
+      - 🇩🇪 github.com/freefq - 德国  18
+      - 🇬🇧 github.com/freefq - 英国  11
       - 🇳🇱 github.com/freefq - 荷兰  24
-      - github.com/freefq - 阿尔巴尼亚  23
-      - github.com/freefq - 阿尔巴尼亚  26
+      - 🇳🇱 NL_6805 |65.13Mb
+      - 🇷🇴 github.com/freefq - 罗马尼亚  19
+      - 🇷🇴 github.com/freefq - 罗马尼亚  7
+      - 🇬🇧 github.com/freefq - 英国  6
+      - 🇷🇴 github.com/freefq - 罗马尼亚  14
+      - 🇷🇴 github.com/freefq - 罗马尼亚  5
+      - github.com/freefq - 欧洲  2
+      - 🇭🇰 github.com/freefq - 香港CDN77节点 16
+      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
+      - 🇺🇸 github.com/freefq - 美国  32
       - github.com/freefq - 欧洲  28
       - github.com/freefq - 欧洲  21
-      - 🇩🇪 github.com/freefq - 德国  3
-      - github.com/freefq - 欧洲  2
+      - 🇷🇴 github.com/freefq - 罗马尼亚  17
+      - github.com/freefq - 阿尔巴尼亚  23
+      - github.com/freefq - 阿尔巴尼亚  26
       - github.com/freefq - 欧洲  29
-      - 🇺🇸 github.com/freefq - 美国  4
-      - 🇺🇸 github.com/freefq - 美国  32
-      - 🇸🇬 github.com/freefq - 新加坡CDN77节点 30
-      - 🇷🇺 github.com/freefq - 俄罗斯  27
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 36
+      - _845 |33.04Mb
+      - 🇷🇺 github.com/freefq - 俄罗斯  35
+      - _847 |73.20Mb
+      - _860 |68.59Mb
+      - 🇺🇸 US_9399 |67.59Mb
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 31
+      - _843 |33.55Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
