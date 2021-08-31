@@ -11,30 +11,17 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: 迁出代码
-      uses: actions/checkout@v2
-    - name: 安装Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
-    - name: 加载缓存  
-      uses: actions/cache@v2
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
-    - name: 设置时区
-      run: sudo timedatectl set-timezone 'Asia/Shanghai'
-    - name: 安装依赖
-      run: |
-        pip install -r requirements.txt
-    - name: 执行任务
-      run: |
-        python main.py
           
-    - name: 提交更改
+    - name: 拉取订阅
       run: |
+
+         curl https://classccai.oss-cn-beijing.aliyuncs.com/speed.png > subscribe/speed.png
+         
+         curl https://classccai.oss-cn-beijing.aliyuncs.com/link_url.txt > subscribe/link_url.txt
+         
+         curl https://classccai.oss-cn-beijing.aliyuncs.com/v2ray.txt > subscribe/v2ray.txt
+         
+         curl https://classccai.oss-cn-beijing.aliyuncs.com/clash.yml > subscribe/clash.yml
       
          sed -i "1c 节点更新时间：`date +'%Y-%m-%d %H:%M:%S'`" README.md
          
