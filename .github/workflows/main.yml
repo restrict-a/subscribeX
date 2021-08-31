@@ -15,13 +15,13 @@ jobs:
     - name: 拉取订阅
       run: |
 
-         curl https://classccai.oss-cn-beijing.aliyuncs.com/speed.png > subscribe/speed.png
+         curl ${{ secrets.SPEED }} > speed.png
          
-         curl https://classccai.oss-cn-beijing.aliyuncs.com/link_url.txt > subscribe/link_url.txt
+         curl ${{ secrets.LINK_URL }} > link_url.txt
          
-         curl https://classccai.oss-cn-beijing.aliyuncs.com/v2ray.txt > subscribe/v2ray.txt
+         curl ${{ secrets.V2RAY }} > v2ray.txt
          
-         curl https://classccai.oss-cn-beijing.aliyuncs.com/clash.yml > subscribe/clash.yml
+         curl ${{ secrets.CLASH }} > clash.yml
       
          sed -i "1c 节点更新时间：`date +'%Y-%m-%d %H:%M:%S'`" README.md
          
