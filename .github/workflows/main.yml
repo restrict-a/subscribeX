@@ -11,7 +11,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-          
+    - uses: actions/checkout@v2
+      with:
+        ref: master
+        
     - name: 拉取订阅
       run: |
 
